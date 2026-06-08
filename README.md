@@ -23,7 +23,7 @@ Apple’s VideoPlayer provides a quick way to add video playback in SwiftUI, but
 
 One alternative is to use AVPlayerViewController, but that often brings in more functionality than needed, especially when the goal is simply to control or replace the default UI.
 
-This solution is designed as a lightweight, modular framework. You can integrate only the features you need while keeping the core component simple. It gives you full control over playback and makes it easy to build custom UI for background videos, tooltips, video hints, onboarding flows, and other custom use cases.
+This solution is designed as a lightweight, modular framework: integrate only what you need instead of pulling in a large codebase your app never uses. You can integrate only the features you need while keeping the core component simple. It gives you full control over playback and makes it easy to build custom UI for background videos, tooltips, video hints, onboarding flows, and other custom use cases.
 
 It also supports more advanced features, including subtitles, seamless looping, real-time filters, vector graphics overlays, frame data access, and custom video processing. This makes it possible to apply **ML or AI algorithms** directly to the video stream for analysis, enhancement, or transformation.
 
